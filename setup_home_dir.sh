@@ -3,7 +3,10 @@
 # ---- Setup home directory ----
 # Change directory to work and make directories
 cd /jupyter/work
-mkdir results scripts
+mkdir results
+
+# Rename 'rnaseq-workshop' to better describe its contents 
+mv -r rnaseq-workshop scripts
 
 # Change directory to home and make directories
 cd ~
